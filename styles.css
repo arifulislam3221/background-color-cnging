@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    gap: 20px;
+}
+
+h1{
+    color: #000;
+    opacity: 80%;
+    text-align: center;
+}
+span{
+    color: #000;
+    opacity: 75%;
+}
+.container-div{
+    border: 2px solid #eee;
+    border-radius: 8px 16px 32px 64px;
+    background-color: #eee;
+    box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+    width: 200px;
+    /* height: 500px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.container-div button{
+    border: 1px solid #ace;
+    border-radius: 10px;
+    box-shadow: 3px 3px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    outline: none;
+    width: 100px;
+    /* height: 20px; */
+}
+.dark{
+    color: #000;
+    opacity: 80%;
+}
+.white{
+    color: #fff;
+    opacity: 100%;
+}
+.red{
+    /* background-color: red; */
+    color: red;
+}
+.orange{
+    /* background-color: orange; */
+    color: orange;
+}
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+.indigo{
+    color: indigo;
+}
+.violet{
+    
+    color: violet;
+}
